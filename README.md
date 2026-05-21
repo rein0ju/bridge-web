@@ -1,7 +1,7 @@
 ## 『Bridge』 <sub>_A better onboarding app for international students_ </sub>
 
 <div>
-  <img src="assets/ profile.png" width="100" align="left"/>
+  <img src="assets/profile.png" width="100" align="left"/>
 
 <p style="margin:0; color:#666;">
 Built by <strong>Raein Seo</strong>
