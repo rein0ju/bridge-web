@@ -2,7 +2,7 @@ const classes = [
   {
     code: "LIS 201",
     title: "The Information Society",
-    day: "월 / 수",
+    day: "Mon / Wed",
     time: "10:00 - 11:15",
     location: "Helen C. White Hall · Room 6191",
     credits: 3,
@@ -10,7 +10,7 @@ const classes = [
   {
     code: "CS 300",
     title: "Programming II",
-    day: "월 / 수",
+    day: "Mon / Wed",
     time: "12:05 - 13:20",
     location: "Computer Sciences · Room 1240",
     credits: 3,
@@ -18,7 +18,7 @@ const classes = [
   {
     code: "STAT 240",
     title: "Data Science Modeling",
-    day: "화 / 목",
+    day: "Tue / Thu",
     time: "14:30 - 15:45",
     location: "Van Vleck Hall · B102",
     credits: 3,
@@ -26,7 +26,7 @@ const classes = [
   {
     code: "GEOG 170",
     title: "Our Digital Globe",
-    day: "수 / 금",
+    day: "Wed / Fri",
     time: "09:00 - 09:50",
     location: "Science Hall · Room 180",
     credits: 3,
@@ -46,15 +46,15 @@ export default function TimetablePage() {
           </a>
 
           <nav className="hidden items-center gap-7 text-sm font-extrabold text-slate-500 md:flex">
-            <a href="/community" className="hover:text-slate-900">게시판</a>
-            <a href="/timetable" className="text-blue-700">시간표</a>
-            <a href="/classrooms" className="hover:text-slate-900">강의실</a>
-            <a href="/gpa" className="hover:text-slate-900">GPA계산기</a>
-            <a href="/campus-news" className="hover:text-slate-900">캠퍼스소식</a>
+            <a href="/community" className="hover:text-slate-900">Community</a>
+            <a href="/timetable" className="text-blue-700">Timetable</a>
+            <a href="/classrooms" className="hover:text-slate-900">Classrooms</a>
+            <a href="/gpa" className="hover:text-slate-900">GPA Calculator</a>
+            <a href="/campus-news" className="hover:text-slate-900">Campus News</a>
           </nav>
 
           <button className="rounded-full bg-blue-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-blue-700">
-            수업 추가
+            Add Class
           </button>
         </div>
       </header>
@@ -68,24 +68,24 @@ export default function TimetablePage() {
 
           <aside className="space-y-4 lg:sticky lg:top-24 lg:self-start">
             <div className="rounded-[2rem] bg-white p-5 shadow-sm">
-              <p className="text-sm font-bold text-blue-700">오늘의 수업</p>
+              <p className="text-sm font-bold text-blue-700">Today's Class</p>
               <h2 className="mt-2 text-2xl font-extrabold">LIS 201</h2>
               <p className="mt-2 text-sm font-semibold leading-6 text-slate-500">
                 10:00 · Helen C. White Hall · Room 6191
               </p>
               <div className="mt-4 rounded-2xl bg-blue-50 p-4 text-sm font-bold leading-6 text-blue-700">
-                다음 수업까지 1시간 20분 남았어요.
+                1 hour and 20 minutes until your next class.
               </div>
             </div>
 
             <div className="rounded-[2rem] bg-white p-5 shadow-sm">
-              <p className="text-sm font-bold text-blue-700">내 수업</p>
+              <p className="text-sm font-bold text-blue-700">My Classes</p>
               <div className="mt-4 space-y-3">
                 {classes.map((item) => (
                   <div key={item.code} className="rounded-2xl bg-slate-50 p-4">
                     <div className="flex items-center justify-between gap-3">
                       <p className="text-sm font-extrabold text-slate-900">{item.code}</p>
-                      <p className="text-xs font-bold text-slate-400">{item.credits}학점</p>
+                      <p className="text-xs font-bold text-slate-400">{item.credits} credits</p>
                     </div>
                     <p className="mt-1 text-xs font-semibold text-slate-500">{item.title}</p>
                     <p className="mt-2 text-xs font-bold text-slate-400">{item.location}</p>
@@ -138,13 +138,13 @@ function TimetableCard({ variant }: { variant: "dark" | "light" }) {
 
         <div className={`flex gap-3 text-2xl ${isDark ? "text-white" : "text-slate-700"}`}>
           <button
-            aria-label="수업 추가"
+            aria-label="Add Class"
             className={`flex h-10 w-10 items-center justify-center rounded-full ${isDark ? "hover:bg-white/10" : "hover:bg-slate-100"}`}
           >
             ＋
           </button>
           <button
-            aria-label="시간표 수정"
+            aria-label="Edit timetable"
             className={`flex h-10 w-10 items-center justify-center rounded-full ${isDark ? "hover:bg-white/10" : "hover:bg-slate-100"}`}
           >
             ✎
@@ -160,7 +160,7 @@ function TimetableCard({ variant }: { variant: "dark" | "light" }) {
         >
           <div className="grid grid-cols-[52px_repeat(5,1fr)]">
             <div className={isDark ? "bg-[#0b0b0c]" : "bg-slate-50"} />
-            {['월', '화', '수', '목', '금'].map((day) => (
+            {['Mon', 'Tue', 'Wed', 'Thu', 'Fri'].map((day) => (
               <div
                 key={day}
                 className={`border-l px-3 py-2 text-center text-sm font-extrabold ${

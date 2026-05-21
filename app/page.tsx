@@ -14,13 +14,13 @@ export default function Home() {
 
           <div className="flex items-center gap-3 text-sm">
             <a href="/login" className="font-semibold text-slate-600 hover:text-slate-900">
-              로그인
+              Log In
             </a>
             <a
               href="/signup"
               className="rounded-full bg-blue-600 px-4 py-2 font-semibold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-700"
             >
-              시작하기
+              Get Started
             </a>
           </div>
         </div>
@@ -30,24 +30,25 @@ export default function Home() {
         <div className="lg:sticky lg:top-24 lg:self-start">
           <div className="flex flex-col lg:pt-8">
             <p className="mb-5 inline-flex w-fit rounded-full bg-blue-100 px-4 py-2 text-sm font-semibold text-blue-700">
-              UW-Madison 한국인 유학생부터 시작합니다
+              Starting with UW-Madison international students
             </p>
 
             <h1 className="text-5xl font-extrabold leading-tight tracking-tight md:text-7xl">
-              유학생활의
+              Everything for
               <br />
-              모든 것,
+              international
+              <br />
+              student life,
               <br />
               <span className="bg-gradient-to-r from-blue-700 to-violet-600 bg-clip-text text-transparent">
                 Bridge
-              </span>{" "}
-              하나로.
+              </span>.
             </h1>
 
             <p className="mt-6 max-w-2xl text-lg leading-8 text-slate-600">
-              시간표, 익명 게시판, 수업 후기, 룸메이트, 인턴십, 맛집과 생활정보까지.
+              Timetables, anonymous posts, class reviews, roommates, internships, restaurants, and daily campus tips.
               <br />
-              <span className="font-extrabold text-blue-700">Bridge</span>는 미국 유학생을 위한 한국어 기반 대학생활 커뮤니티입니다.
+              <span className="font-extrabold text-blue-700">Bridge</span> brings campus life, classes, housing, jobs, and student questions into one simple platform.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -55,25 +56,25 @@ export default function Home() {
                 href="/signup"
                 className="rounded-full bg-blue-600 px-8 py-4 text-center font-bold text-white shadow-sm transition hover:-translate-y-0.5 hover:bg-blue-700"
               >
-                Bridge 시작하기
+                Start Bridge
               </a>
             </div>
 
             <div className="mt-8 grid max-w-xl gap-3 sm:grid-cols-3">
               <TrustCard
-                eyebrow="첫 시작"
+                eyebrow="First Launch"
                 title="UW-Madison"
-                description="우리 학교 한국인 유학생 커뮤니티부터 시작해요."
+                description="Starting with the international student community at our school."
               />
               <TrustCard
-                eyebrow="학교 인증"
-                title=".edu 이메일"
-                description="학교 이메일 인증 후 같은 캠퍼스 게시판에 참여해요."
+                eyebrow="School Verification"
+                title=".edu Email"
+                description="Join your campus board after verifying your school email."
               />
               <TrustCard
-                eyebrow="핵심 기능"
-                title="시간표 + 게시판"
-                description="수업, 질문, 룸메이트, 생활정보를 한곳에서 봐요."
+                eyebrow="Core Features"
+                title="Timetable + Boards"
+                description="Check classes, questions, roommates, and campus tips in one place."
               />
             </div>
           </div>
@@ -94,17 +95,16 @@ export default function Home() {
 
           <div className="relative mx-auto mb-5 inline-flex items-center gap-2 rounded-full bg-white px-4 py-2 text-sm font-extrabold text-blue-700 shadow-sm">
             <span className="flex h-2.5 w-2.5 rounded-full bg-green-500" />
-            Beta 모집 중
+            Beta Now Open
           </div>
 
           <h2 className="relative mt-3 text-3xl font-extrabold md:text-5xl">
-            UW-Madison 유학생 커뮤니티를
+            Help build the UW-Madison
             <br />
-            함께 만들어가요.
+            international student community.
           </h2>
           <p className="relative mx-auto mt-5 max-w-2xl text-blue-100">
-            지금은 정식 출시 전 베타 버전입니다. 첫 유저들과 함께 필요한 기능을 직접 만들고,
-            유학생이 미국 대학생활에서 필요한 모든 정보를 한곳에 모으는 것이 목표입니다.
+            Bridge is currently a beta prototype before the official launch. The goal is to build useful features with early users and bring essential campus life information into one place.
           </p>
 
           <div className="relative mt-7 flex flex-col items-center justify-center gap-3 sm:flex-row">
@@ -112,7 +112,7 @@ export default function Home() {
               href="/signup"
               className="inline-block rounded-full bg-white px-8 py-3 font-bold text-blue-700 transition hover:-translate-y-0.5 hover:bg-blue-50"
             >
-              베타 참여하기
+              Join the Beta
             </a>
           </div>
         </div>
@@ -120,16 +120,16 @@ export default function Home() {
 
       <footer className="mx-auto max-w-7xl px-6 py-8 text-sm text-slate-500">
         <div className="flex flex-col justify-between gap-3 border-t border-slate-200 pt-6 md:flex-row">
-          <p>© 2026 Bridge. 미국 유학생을 위한 대학생활 커뮤니티.</p>
+          <p>© 2026 Bridge. A campus life community for international students in the U.S.</p>
           <div className="flex gap-4">
             <a href="#" className="hover:text-slate-900">
-              개인정보처리방침
+              Privacy Policy
             </a>
             <a href="#" className="hover:text-slate-900">
-              이용약관
+              Terms of Use
             </a>
             <a href="#" className="hover:text-slate-900">
-              문의
+              Contact
             </a>
           </div>
         </div>
@@ -145,35 +145,35 @@ function PreviewPhone() {
         <div className="mb-4 flex items-center justify-between">
           <div>
             <p className="text-xs font-medium text-slate-500">Bridge</p>
-            <h2 className="text-lg font-bold">오늘의 캠퍼스</h2>
+            <h2 className="text-lg font-bold">Today's Campus</h2>
           </div>
           <span className="rounded-full bg-green-100 px-3 py-1 text-xs font-bold text-green-700">
-            인증됨
+            Verified
           </span>
         </div>
 
         <div className="mb-4 rounded-2xl bg-blue-600 p-4 text-white">
-          <p className="text-xs text-blue-100">다음 수업</p>
+          <p className="text-xs text-blue-100">Next Class</p>
           <h3 className="mt-1 text-xl font-bold">LIS 201</h3>
           <p className="mt-1 text-sm text-blue-100">10:00 AM · Helen C. White Hall</p>
         </div>
 
         <div className="grid grid-cols-2 gap-3">
-          <MiniInfoCard title="인기글" value="CPT 신청 언제?" />
-          <MiniInfoCard title="룸메이트" value="8월 입주 구함" />
+          <MiniInfoCard title="Popular Post" value="When should I apply for CPT?" />
+          <MiniInfoCard title="Roommate" value="Looking for August move-in" />
         </div>
 
         <div className="mt-3 space-y-3">
-          <PreviewPost category="비자 / CPT / OPT" title="CPT 신청은 보통 얼마나 걸리나요?" />
-          <PreviewPost category="수업 / 전공" title="CS 300 유학생이 듣기 괜찮나요?" />
-          <PreviewPost category="맛집 / 생활정보" title="매디슨 근처 한식당 추천해주세요." />
+          <PreviewPost category="Visa / CPT / OPT" title="How long does a CPT application usually take?" />
+          <PreviewPost category="Classes / Major" title="Is CS 300 manageable for international students?" />
+          <PreviewPost category="Food / Campus Life" title="Any restaurant recommendations near Madison?" />
         </div>
 
         <div className="mt-4 grid grid-cols-4 gap-2 rounded-2xl bg-white p-2 text-center text-[11px] font-bold text-slate-500 shadow-sm">
-          <div className="rounded-xl bg-blue-100 px-2 py-2 text-blue-700">홈</div>
-          <div className="px-2 py-2">게시판</div>
-          <div className="px-2 py-2">시간표</div>
-          <div className="px-2 py-2">프로필</div>
+          <div className="rounded-xl bg-blue-100 px-2 py-2 text-blue-700">Home</div>
+          <div className="px-2 py-2">Board</div>
+          <div className="px-2 py-2">Timetable</div>
+          <div className="px-2 py-2">Profile</div>
         </div>
       </div>
     </div>
@@ -186,7 +186,7 @@ function PreviewDashboard() {
       <div className="flex items-center justify-between">
         <div>
           <p className="text-sm font-bold text-blue-700">Dashboard</p>
-          <h3 className="mt-1 text-2xl font-extrabold">유학생활을 한눈에</h3>
+          <h3 className="mt-1 text-2xl font-extrabold">Student life at a glance</h3>
         </div>
         <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-bold text-blue-700">
           Home
@@ -195,15 +195,15 @@ function PreviewDashboard() {
 
       <div className="mt-6 grid gap-4 sm:grid-cols-2">
         <div className="rounded-2xl bg-slate-50 p-4">
-          <p className="text-sm font-semibold text-slate-500">오늘의 수업</p>
+          <p className="text-sm font-semibold text-slate-500">Today's Class</p>
           <p className="mt-2 text-xl font-bold">STAT 240</p>
           <p className="mt-1 text-sm text-slate-500">2:30 PM · Van Vleck Hall</p>
         </div>
 
         <div className="rounded-2xl bg-slate-50 p-4">
-          <p className="text-sm font-semibold text-slate-500">체크리스트</p>
-          <p className="mt-2 text-xl font-bold">CPT 준비</p>
-          <p className="mt-1 text-sm text-slate-500">신청 타임라인 확인</p>
+          <p className="text-sm font-semibold text-slate-500">Checklist</p>
+          <p className="mt-2 text-xl font-bold">CPT Prep</p>
+          <p className="mt-1 text-sm text-slate-500">Check application timeline</p>
         </div>
       </div>
 
@@ -226,18 +226,18 @@ function PreviewCommunity() {
       <div className="mb-4 flex items-center justify-between">
         <div>
           <p className="text-sm font-bold text-blue-700">Community</p>
-          <h3 className="mt-1 text-2xl font-extrabold">게시판 미리보기</h3>
+          <h3 className="mt-1 text-2xl font-extrabold">Community Preview</h3>
         </div>
         <span className="rounded-full bg-slate-100 px-3 py-1 text-xs font-bold text-slate-600">
-          익명 가능
+          Anonymous Available
         </span>
       </div>
 
       <div className="space-y-3">
-        <BoardPreview category="자유 게시판" title="오늘 학교 너무 춥지 않나요..." comments={12} />
-        <BoardPreview category="비밀 게시판" title="룸메이트랑 계약 문제 생겼는데 조언 부탁해요" comments={8} />
-        <BoardPreview category="정보 게시판" title="SSN 없이 은행 계좌 만들 수 있는 곳 정리" comments={21} />
-        <BoardPreview category="인턴십 게시판" title="F-1 학생도 이 온캠퍼스 잡 지원 가능한가요?" comments={5} />
+        <BoardPreview category="Free Talk" title="Isn't campus so cold today?" comments={12} />
+        <BoardPreview category="Anonymous Board" title="I have a lease issue with my roommate. Any advice?" comments={8} />
+        <BoardPreview category="Info Board" title="Banks where you can open an account without an SSN" comments={21} />
+        <BoardPreview category="Internship Board" title="Can F-1 students apply for this on-campus job?" comments={5} />
       </div>
     </div>
   );
@@ -250,7 +250,7 @@ function PreviewTimetable() {
       <div className="mb-4 flex items-center justify-between">
         <div>
           <p className="text-sm font-bold text-blue-700">Timetable</p>
-          <h3 className="mt-1 text-2xl font-extrabold">나의 시간표</h3>
+          <h3 className="mt-1 text-2xl font-extrabold">My Timetable</h3>
         </div>
         <span className="rounded-full bg-blue-100 px-3 py-1 text-xs font-bold text-blue-700">
           Fall 2026
@@ -320,12 +320,12 @@ function PreviewPost({ category, title }: { category: string; title: string }) {
     <div className="rounded-2xl bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md">
       <div className="flex items-center justify-between">
         <p className="text-xs font-bold text-blue-600">{category}</p>
-        <p className="text-[11px] font-medium text-slate-400">방금 전</p>
+        <p className="text-[11px] font-medium text-slate-400">Just now</p>
       </div>
       <p className="mt-1 text-sm font-semibold text-slate-800">“{title}”</p>
       <div className="mt-3 flex gap-2 text-[11px] font-medium text-slate-400">
-        <span>댓글 8</span>
-        <span>저장 3</span>
+        <span>Comments 8</span>
+        <span>Saves 3</span>
       </div>
     </div>
   );
@@ -353,7 +353,7 @@ function BoardPreview({
     <div className="rounded-2xl border border-slate-100 bg-slate-50 p-4">
       <div className="flex items-center justify-between gap-3">
         <p className="text-xs font-bold text-blue-600">{category}</p>
-        <p className="text-xs font-medium text-slate-400">댓글 {comments}</p>
+        <p className="text-xs font-medium text-slate-400">Comments {comments}</p>
       </div>
       <p className="mt-2 font-semibold text-slate-800">{title}</p>
     </div>

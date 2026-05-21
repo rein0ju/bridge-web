@@ -10,15 +10,15 @@ export default function SignupPage() {
         </a>
 
         <div className="mt-8 rounded-3xl bg-white p-8 shadow-sm">
-          <p className="text-sm font-bold text-blue-700">회원가입</p>
-          <h1 className="mt-2 text-3xl font-extrabold">Bridge 시작하기</h1>
+          <p className="text-sm font-bold text-blue-700">Sign Up</p>
+          <h1 className="mt-2 text-3xl font-extrabold">Start using Bridge</h1>
           <p className="mt-3 text-sm leading-6 text-slate-500">
-            학교 이메일로 인증하고 UW-Madison 유학생 커뮤니티에 참여하세요.
+            Verify with your school email and join the UW-Madison international student community.
           </p>
 
           <form className="mt-8 space-y-4">
             <div>
-              <label className="text-sm font-bold text-slate-700">학교 이메일</label>
+              <label className="text-sm font-bold text-slate-700">School Email</label>
               <input
                 type="email"
                 placeholder="yourname@wisc.edu"
@@ -27,32 +27,32 @@ export default function SignupPage() {
             </div>
 
             <div>
-              <label className="text-sm font-bold text-slate-700">비밀번호</label>
+              <label className="text-sm font-bold text-slate-700">Password</label>
               <input
                 type="password"
-                placeholder="비밀번호 입력"
+                placeholder="Enter your password"
                 className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none focus:border-blue-500"
               />
             </div>
 
             <div>
-              <label className="text-sm font-bold text-slate-700">닉네임</label>
+              <label className="text-sm font-bold text-slate-700">Nickname</label>
               <input
                 type="text"
-                placeholder="예: badger2026"
+                placeholder="Example: badger2026"
                 className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none focus:border-blue-500"
               />
             </div>
 
             <div>
-              <label className="text-sm font-bold text-slate-700">학교</label>
+              <label className="text-sm font-bold text-slate-700">School</label>
               <select className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none focus:border-blue-500">
                 <option>UW-Madison</option>
               </select>
             </div>
 
             <div>
-              <label className="text-sm font-bold text-slate-700">학생 유형</label>
+              <label className="text-sm font-bold text-slate-700">Student Type</label>
               <select className="mt-2 w-full rounded-2xl border border-slate-200 px-4 py-3 outline-none focus:border-blue-500">
                 <option>Undergraduate</option>
                 <option>Graduate</option>
@@ -66,14 +66,14 @@ export default function SignupPage() {
               href="/community"
               className="block w-full rounded-full bg-blue-600 px-6 py-4 text-center font-bold text-white transition hover:bg-blue-700"
             >
-              가입하기
+              Create Account
             </a>
           </form>
 
           <p className="mt-6 text-center text-sm text-slate-500">
-            이미 계정이 있나요?{" "}
+            Already have an account?{" "}
             <a href="/login" className="font-bold text-blue-700">
-              로그인
+              Log In
             </a>
           </p>
         </div>
