@@ -22,7 +22,7 @@ Built by <strong>Raein Seo</strong>
   <br>
   → <a href="https://github.com/rein0ju/bridge">UX/UI Case Study</a>
   <br>
-  → Web Prototype: Coming soon
+  → <a href="https://github.com/rein0ju/bridge-web">Web Prototype</a>
   <br>
   → iOS Prototype: Coming soon
 </blockquote>
