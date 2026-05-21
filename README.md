@@ -1,4 +1,4 @@
-## 『Bridge』 <sub>_A better onboarding app for international students_ </sub>
+## 『Bridge』 <sub>_An international student onboarding and community platform_ </sub>
 
 <div>
   <img src="assets/profile.png" width="100" align="left"/>
