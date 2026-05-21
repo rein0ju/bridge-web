@@ -29,12 +29,11 @@ Built by <strong>Raein Seo</strong>
 
 ### Bridge Web is an early web prototype of Bridge, an international student onboarding and community platform.
 
-### Tech Stack
-
+## Tech Stack
 - Next.js
 - TypeScript
 - Tailwind CSS
 
-### Status
+## Status
 
 This project is an early-stage web prototype and has not been officially launched.
