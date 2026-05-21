@@ -28,6 +28,7 @@ Built by <strong>Raein Seo</strong>
 </blockquote>
 
 ### Bridge Web is an early web prototype of Bridge, an international student onboarding and community platform.
+<a href="https://bridge-web-ashy.vercel.app" target="_blank"><b>Live Demo</b></a>
 
 ## Tech Stack
 - Next.js
