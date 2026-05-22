@@ -27,6 +27,11 @@ Built by <strong>Raein Seo</strong>
   → iOS Prototype: Coming soon
 </blockquote>
 
+<div>
+   <img src="assets/Web.png" width="1000" align="left">    
+  <br clear="left"/>
+</div>
+
 ### Bridge Web is an early web prototype of Bridge, an international student onboarding and community platform. <a href="https://bridge-web-ashy.vercel.app" target="_blank"> [View Bridge Web Prototype] </a>
 
 ## Tech Stack
