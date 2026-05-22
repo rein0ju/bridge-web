@@ -24,7 +24,7 @@ Built by <strong>Raein Seo</strong>
   <br>
   → <a href="https://github.com/rein0ju/bridge-web">Web Prototype</a>
   <br>
-  → iOS Prototype: Coming soon
+   → <a href="https://github.com/rein0ju/bridge-ios">iOS Prototype</a>
 </blockquote>
 
 <div>
