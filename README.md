@@ -32,13 +32,12 @@ Built by <strong>Raein Seo</strong>
   <br clear="left"/>
 </div>
 
-### Bridge Web is an early web prototype of Bridge, an international student onboarding and community platform. <a href="https://bridge-web-ashy.vercel.app" target="_blank"> [View Bridge Web Prototype] </a>
+### Bridge Web is an early web prototype of Bridge, an international student onboarding and community platform. <a href="https://bridge-web-ashy.vercel.app" target="_blank"> [Bridge Web Prototype] </a>
+<hr>
 
-## Tech Stack
-- Next.js
-- TypeScript
-- Tailwind CSS
+### Tech Stack
+![Next JS](https://img.shields.io/badge/Next-black.svg?style=for-the-badge&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Status
-
-This project is an early-stage web prototype and has not been officially launched.
